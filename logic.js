@@ -33,10 +33,12 @@ function getDogImage(numInput) {
 
 function displayResults(responseJson) {
   console.log(responseJson);
+  responseJson.message.forEach(renderedImg => {
   //replace the existing image with the new one
-  $('.dog-img-results').replaceWith(
-    `<img src="${responseJson.message}" class="dog-img-results">`
+  $('.results').append(
+    `<img src="${renderedImg}">`
   )
+  });
   //display the results section
   $('.results').removeClass('hidden');
 }

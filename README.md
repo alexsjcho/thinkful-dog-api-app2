@@ -8,6 +8,6 @@
 
 3. Use the endpoint described in the "DISPLAY MULTIPLE RANDOM IMAGES FROM ALL DOGS COLLECTION" section of this page of the DogAPI docs.[done] -->
 
-1. Building on the previous app, create an app that lets users choose to display between 1 and 50 random dog images, then loads the images in the console. 
+1. Building on the previous app, create an app that lets users choose to display between 1 and 50 random dog images, then loads the images in the console. [done]
 
-2. This app should adhere to all of the requirements from the first one, in addition to displaying the images in the DOM.
+2. This app should adhere to all of the requirements from the first one, in addition to displaying the images in the DOM. [done]
