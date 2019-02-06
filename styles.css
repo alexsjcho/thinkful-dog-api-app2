@@ -24,3 +24,11 @@ h3 {
   width: 40%;
   height: 50%;
 }
+
+.get-dog-btn {
+  background-color: green;
+}
+
+.hidden{
+  display: none;
+}
