@@ -33,9 +33,9 @@ function getDogImage(numInput) {
 
 function displayResults(responseJson) {
   console.log(responseJson);
+  $(".results").html("");
   responseJson.message.forEach(renderedImg => {
-    //Loads section with requested # of images
-    $(".results").append(`<img src="${renderedImg}">`);
+    $(".results").append(`<img src="${renderedImg}" class="results">`);
   });
   //display the results section
   $(".results").removeClass("hidden");
